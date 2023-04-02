@@ -1,0 +1,26 @@
+wiki:
+  lr: 0.001
+  lr_f: 0.01
+  num_hidden: 512
+  num_heads: 4
+  num_layers: 2
+  weight_decay: 1e-5
+  weight_decay_f: 1e-4
+  max_epoch: 1000
+  max_epoch_f: 300
+  mask_rate: 0.75
+  encoder: gat
+  decoder: gat
+  activation: prelu
+  in_drop: 0.2
+  attn_drop: 0.1
+  linear_prob: True
+  drop_edge_rate: 0.0
+  optimizer: adam
+  replace_rate: 0.0
+  scheduler: True
+  momentum_rate: 0.1
+  edcoder_rate: 0.75
+  t: 2
+  loss_r: 6
+  loss_a: 1
